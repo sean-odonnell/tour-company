@@ -1,0 +1,168 @@
+body {
+  font-size: 16px;
+  color: #333;
+}
+h5 {
+  padding: 6px 0;
+}
+.active {
+  color: green;
+}
+
+.jumbotron {
+  background-image: url("http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/field/image/site-photo.jpg");
+  background-color: white;
+  margin-bottom: 0;
+  min-height: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.vertical-center {
+  min-height: 85%; 
+  min-height: 85vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.jumboText {
+  color: white;
+  font-size: 2em;
+}
+
+.listElement {
+  margin-top: 10px;
+}
+
+.space {
+  margin-top: 30px;
+}
+
+.center-cropped {
+  min-height: 240px;
+  height: auto;
+  width: auto;
+  background-position: center center;
+/*  background-size: contain !important;
+*/  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.price {
+  font-weight: 700 !important;
+  margin-right: 5px;
+}
+
+.navbar-right {
+  margin-right: 15px !important;
+}
+
+.navb {
+  font-size: 16px;
+}
+
+.priceAndTitle {
+  color: black !important;
+
+}
+
+.center-cropped-tour {
+  height: 340px;
+  width: 100%;
+/*  height: 100%;
+  position: relative;
+  overflow: hidden;*/
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  white-space: normal !important;
+}
+.form-control {
+  border: none;
+  background-color: rgba(255,255,255, .7);
+}
+.main-content-container {
+  top: -20px;
+}
+
+input {
+  border: 1px #999 solid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#homepage-search-input {
+  border: none;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 1px solid #337ab7;
+  outline: none;
+}
+.add-padding {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+footer {
+  background-color: #f5f5f5;
+  border-top: solid 1px #999;
+  padding-top: 45px;
+  padding-bottom: 55px;
+}
+#signin-form {
+  width: 400px;
+  min-height: 74%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+td{
+    vertical-align: bottom;
+}
+.card {
+  float: left;
+    margin: 10px;
+    width: 340px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card-header {
+  background-color: #563D7C; 
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card-block {
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+.user-header {
+  background-color: #f5f5f5; 
+  padding: 10px;
+}
+
+
